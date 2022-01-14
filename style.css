@@ -198,3 +198,89 @@ section{
     float: right;
 }
 /* globle section end */
+/*corona section start*/
+.corona-hero {
+    font-weight: 700;
+    font-size: 23px;
+    font-family: Poppins;
+    text-align: center;
+    margin-top: 50px;
+}
+ .corona-hero span{
+     color:#FFAD5A;
+ }
+/*corona section end*/
+/*corona update section start*/
+.corona-hero-update{
+    overflow: hidden;
+    width: 100%;
+    
+}
+.corona-hero-update1{
+    float: left;
+    width: 40%;
+   
+}
+.corona-hero-update1 img {
+    width: 307px;
+    float: right;
+    margin-right: 25px;
+}
+.corona-hero-update2 {
+    margin-top: 76px;
+    float: left;
+    margin-left: 12px;
+    width: 58%;
+    padding-left: 54px;
+}
+.corona-hero-update2 h1{
+    font-family: Poppins;
+    font-weight: bold;
+    font-size: 48px;
+    color: #000000;
+}
+.corona-hero-update2 span{
+    color: #FFAD5A;
+}
+.corona-hero-update2 p {
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 400px;
+    padding-top: 12px;
+    padding-bottom: 19px;
+}
+.corona-hero-update2 a {
+    background: #FF5959;
+    border-radius: 5px;
+    color: white;
+    text-decoration: none;
+    padding: 10px 21px;
+}
+/*corona update section end*/
+/*footer section start*/
+.wrapper {
+    margin-top: 40px;
+    background: #0B0D17;
+}
+ .footer-hero{
+     text-align: center;
+ }
+ .footer-hero1 h1 {
+    color: #FFFFFF;
+    font-family: 'Lobster', cursive;
+    /* padding: 31px; */
+    /* margin: 58px; */
+    padding-top: 26px;
+}
+ .footer-hero1 span{
+     color: #FF5959;
+ }
+ .footer-hero1 p {
+    font-family: 'Lobster', cursive;
+    color: wheat;
+    /* padding: 12px 0; */
+    font-size: 12px;
+    padding-top: 7px;
+    padding-bottom: 36px;
+}
+/*footer section end*/
