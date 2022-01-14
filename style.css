@@ -4,9 +4,6 @@
     box-sizing: border-box;
 
 }
-body{
-    font-family: 'Inter', sans-serif;
-}
 
 /*hero section start*/
 
@@ -24,19 +21,23 @@ section{
     
 }
 .header-one .header-body h1 {
-    font-size: 48px;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Yeseva One', cursive;
+    font-size: 55px;
     border-left: 3px solid rgb(255, 89, 89);
     border-radius: 2px;
     color: rgb(51, 51, 51);
-    margin-bottom: 20px;
     padding-left: 8px;
+    line-height: 80px;
 }
 .header-one .header-body span{
     color: #FFAD5A;
 }
-.header-one .header-body p{
+.header-one .header-body p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
     margin-top: 28px;
-    margin-bottom: 19px;
+    margin-bottom: 30px;
 }
 .header-one .header-body a{
  background: #FF5959;
@@ -45,9 +46,10 @@ section{
  text-decoration: none;
  padding: 7px 16px;
 }
-.header-one img{
+.header-one img {
     margin-left: 33px;
     width: 50%;
+    margin-top: 15px;
 }
 /*hero section end*/
 /*my mission section start*/
@@ -61,6 +63,12 @@ section{
     margin-top: 10px;
     text-align: center;
 }
+.myMission h1 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    color: #13103A;
+    margin-bottom: 16px;
+}
 .myMission span{
     color: #FFAD5A;
 }
@@ -70,19 +78,25 @@ section{
     width: 100%;
    
 }
+
 .myMission-hero1 {
-    background: rgb(79 157 166 / 32%);
-    margin-left: 30px;
+    background: rgb(79 157 166 / 10%);
+    margin-left: 60px;
     float: left;
-    width: 30%;
+    width: 27%;
     border-radius: 22px;
 }
-.myMission-hero1 h1{
-   font-size: 24px;
-   padding: 5px 20px;
-}
-.myMission-hero1 p{
+.myMission-hero1 h1 {
+    font-size: 24px;
     padding: 5px 20px;
+    font-family: 'Poppins';
+    font-weight: 500;
+}
+.myMission-hero1 p {
+    padding: 12px 23px;
+    font-family: 'Poppins';
+    margin-bottom: 29px;
+    margin-top: 4px;
 }
 .myMission-hero1 img{
     width: 150px;
@@ -94,6 +108,7 @@ section{
     background: rgb(241 228 194 / 92%);
 }
 /*my mission section end*/
+
 /* my about section start*/
    
 .about-hero {
