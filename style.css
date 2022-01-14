@@ -95,29 +95,43 @@ section{
 }
 /*my mission section end*/
 /* my about section start*/
-   .about-hero{
-       width: 100%;
-       height: 400px;
-       border: 2px solid hotpink;
-       background-image: url(image/shape-1.png);
-       background-size: contain;
-       background-repeat: no-repeat;
-       background-position-x: -20px;
-   }
-   .about-hero1{
-       float: left;
-       width: 30%;
-       height: 400px;
-       border: 1px solid yellow;
-   }
-   .about-hero1 img{
-       width: 100%;
-   }
-   .about-hero2{
-       float: left;
-       width: 70%;
-       border: 1px solid green;
-       height: 400px;
-   }
+   
+.about-hero {
+    width: 100%;
+    margin-top: 40px;
+}
+  .about-hero1{
+      float: left;
+       width:40%;
+       
+  }
+  .about-hero1 img {
+    width: 76%;
+    margin-left: 45px;
+}
+  .about-hero2{
+      float: left;
+      width: 60%;
+      
+
+  }
+  .about-hero2 h1 {
+    line-height: 39px;
+    margin-top: 32px;
+    font-size: 30px;
+    font-weight: 900;
+}
+.about-hero2 p {
+    line-height: 21px;
+    margin-top: 12px;
+    margin-bottom: 25px;
+}
+.about-hero2 a {
+    background: #FF5959;
+    border-radius: 5px;
+    color: white;
+    text-decoration: none;
+    padding: 10px 21px;
+}
 
 /* my about section end */
